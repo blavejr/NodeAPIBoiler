@@ -1,0 +1,4 @@
+{
+  "MONGO_URI": "mongodb://localhost/jobsDB",
+  "SERVER_PORT": "4000"
+}

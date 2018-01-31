@@ -1,0 +1,26 @@
+{
+  "name": "nudge",
+  "version": "0.0.1",
+  "description": "Nudge API.",
+  "keywords": [
+    "Nudge"
+  ],
+  "homepage": "",
+  "author": "Remigius Kalimba <kalimbatech@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "2.3.4",
+    "express": "*",
+    "mongoose": "^5.0.2"
+  },
+  "main": "server",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make lint && make test",
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}
